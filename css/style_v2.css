@@ -447,3 +447,68 @@ section {
 html {
   scroll-behavior: smooth;
 }
+
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+ 
+  section {
+    padding: 60px 20px;
+  }
+
+  .projects-container,
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+ 
+  .contact-card {
+    width: 100%;
+    padding: 25px;
+  }
+
+  
+  h1 { font-size: 26px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .navbar {
+    height: auto;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
+.project-card {
+  width: 100%;
+  max-width: 100%;
+}
